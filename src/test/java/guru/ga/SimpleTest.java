@@ -9,10 +9,10 @@ public class SimpleTest {
 
     @Test
     void assertTrueTest() {
-        assertTrue( 3>2);
+        assertTrue( 4>2);
     }
     @Test
     void assertFalseTest() {
-        assertFalse( 3<2);
+        assertFalse( 4<2);
     }
 }
